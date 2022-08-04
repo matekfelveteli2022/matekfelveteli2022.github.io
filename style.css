@@ -1,0 +1,118 @@
+body{
+	margin-top: 0vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	text-align: justify;
+	font-size: 2vw;
+	background-color:#f99;
+	
+	
+	}
+#Honlap_címe{
+	text-align:center;
+	color:#b0b;
+	font-weight:bold;
+	font-size:5vw;
+}
+
+button#vissza{
+	position:fixed;
+	bottom:1vw;
+	left:40vw;
+	border:solid red;
+	border-radius:1vw;
+	padding:1vw;
+}
+
+button#vissza a{
+	font-size:2vw;
+	text-decoration:none;
+}
+	
+nav{
+	background-image: url(background05.jpg);
+	background-origin:content-box;
+	background-size:cover;
+	/*A magasságot a jobb és baloldali menükben 4vw +7*nvw*/
+	height:32vw;
+}
+
+nav#fooldal{
+	
+	/*A magasságot a jobb és baloldali menükben 4vw +7*nvw */
+	height:32vw;	
+}
+nav.szamozott{
+		/*A magasságot a jobb és baloldali menükben 4vw +7*nvw */
+	height:39vw;
+	
+}
+
+nav.evenkent{
+	/*A magasságot a jobb és baloldali menükben 4vw +7*nvw */
+	height:74vw;
+}
+ul#menu1{
+	float:right;
+	margin:0vw;
+	padding:2vw;
+	list-style:none;	
+	font-weight:bold;
+}
+ul#menu1 a{
+	margin:0.3vw;
+	text-decoration:none;
+	width:20vw;
+	padding:2vw;
+	border: 0.2vw solid red;
+	display:block;
+}
+ul#menu1 a:hover{
+	
+	background-color:rgba(220,220,220,0.3);
+	/*
+	width:40vw;
+	*/
+}
+
+
+
+ul#menu2{
+	float:left;
+	margin:0vw;
+	padding:2vw;
+	list-style:none;	
+	font-weight:bold;
+}
+ul#menu2 a{
+	margin:0.3vw;
+	text-decoration:none;
+	width:20vw;
+	padding:2vw;
+	border: 0.2vw solid red;
+	display:block;
+}
+ul#menu2 a:hover{
+	
+	background-color:rgba(220,220,220,0.3);
+	/*
+	width:40vw;
+	*/
+}
+
+div.feladat{
+	background-image: url(background05.jpg);
+	background-origin:content-box;
+	background-size:cover;
+	padding:3vw;
+}
+div.feladat img{
+	width:82vw;
+}
+
+a hover{
+	background-color:#aaa;
+}
+
+
+
